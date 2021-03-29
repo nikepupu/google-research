@@ -31,7 +31,7 @@ FLAGS = flags.FLAGS
 flags.DEFINE_string("model_dir", "/tmp/object_discovery/",
                     "Where to save the checkpoints.")
 flags.DEFINE_integer("seed", 0, "Random seed.")
-flags.DEFINE_integer("batch_size", 64, "Batch size for the model.")
+flags.DEFINE_integer("batch_size", 16, "Batch size for the model.")
 flags.DEFINE_integer("num_slots", 7, "Number of slots in Slot Attention.")
 flags.DEFINE_integer("num_iterations", 3, "Number of attention iterations.")
 flags.DEFINE_float("learning_rate", 0.0004, "Learning rate.")
